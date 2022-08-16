@@ -1,0 +1,10 @@
+
+*.aux
+*.bbl
+*.fdb_latexmk
+*.blg
+*.log
+*.fls
+*.out
+templates/personal/out/blank_project.synctex.gz
+*.toc

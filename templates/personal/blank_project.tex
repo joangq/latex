@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{jig} % Global config
+\usepackage{subfiles} % Best loaded last in the preamble
+
+% Custom configurations
+\customtitles
+\tocname{Índice}
+\custompartname{Parte}
+\bibsectname{}
+\resetsections
+\hyperblack
+
+\begin{document}
+
+% Title page
+\subfile{sections/titlepage}
+
+% Reset pagestyle
+\pagestyle{plain}
+\pagenumbering{arabic}
+\hyperblue
+
+% Subfiles
+\subfile{sections/introduction} \newpage
+
+\subfile{sections/section_2}
+
+% Bibliography
+\newpage
+\part{Bibliografía}
+\bibliographystyle{unsrt}
+\bibliography{bibliography.bib}
+
+
+\end{document}
