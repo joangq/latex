@@ -56,7 +56,7 @@ To hide the bibliography default title, custom command `\bibsectname{}` is used 
 
 The `settings.json` file contains the arguments necessary to compile the main file using `latexmk` into the `.\out\` folder.
 
-```json
+```js
 {
     "latex-workshop.latex.tools": [
         {
