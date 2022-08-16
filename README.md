@@ -1,3 +1,5 @@
-# Latex
+<div align='center'>
+  <img src=./assets/LaTeX.png>
+</div>
 
-This is a repository for personal LaTeX templates and examples.
+<div align='center'> This is a repository for personal LaTeX templates and examples. </div>
