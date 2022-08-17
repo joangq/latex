@@ -6,7 +6,7 @@ This template was made using VSCode with the [LaTeX Workshop](https://github.com
 
 It's basically an example of multi-file LaTeX documents. The global config, as well as all the `\usepackage` package imports, is located in the `jig.sty` style file.
 
-Every part or section should go inside the `\sections` folder as a `.tex` file each one of them, should follow a simple structure:
+Every part or section should go inside the `\sections` folder as a `.tex` file, each one of them should follow a simple structure:
 
 ```latex
 \documentclass[../main.tex]{subfiles}
