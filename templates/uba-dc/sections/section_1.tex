@@ -1,0 +1,31 @@
+\documentclass[../blank_project_dc.tex]{subfiles}
+
+\begin{document}
+\section{ Algunos ejemplos }
+
+\ul{Especificaciones, predicados y auxiliares:}\cite{knuth:1984}
+
+\begin{itemize}
+    \item Dados dos números devolver el resto de su división
+    
+    \begin{proc}{cociente}{\In a,b: \ent, \Out result: \ent}{}
+        \pre{b \neq 0}
+        \post{result = a \ mod \ b}
+    \end{proc}
+    
+    \item Un predicado: \\
+
+    \pred{noRepe}{l:\TLista{\Z}}{ \\
+    \tab (\forall i:\Z)( 0 \leq i < l \implicaLuego l[i] \notin \mono{subseq}(l,0,i))}
+    
+    \item Un auxiliar: \\
+
+    \aux{primosMenores}{n:\Z}{\Z}
+    {\sum_{i=2}^{n-1}\IfThenElse{\mono{soy\_primo}(i)}{1}{0}}
+    
+    \item Una fórmula: \\
+    $(p \y (q \lor r)) \Iff ((p \y q) \lor (p \y r))$
+    
+     
+\end{itemize}
+\end{document}

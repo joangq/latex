@@ -9,3 +9,4 @@
 templates/personal/out/blank_project.synctex.gz
 *.toc
 examples/math_questions/out/math_questions.synctex.gz
+*.gz

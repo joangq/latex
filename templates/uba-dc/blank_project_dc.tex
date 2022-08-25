@@ -1,0 +1,48 @@
+\documentclass[a4paper]{article}
+
+\setlength{\parskip}{0.1em}
+\newcommand{\tab}{~ \qquad}
+\input{Algo1Macros}
+
+\usepackage{caratula}
+\usepackage{jig}
+\usepackage{subfiles}
+
+% Configuración
+\bibsectname{}
+\customuline
+\hyperblack
+
+% Datos del documento
+\titulo{Proyecto de ejemplo.}
+\subtitulo{Template de \LaTeX del DC.}
+\fecha{\today}
+\materia{Algoritmos y Estructuras de Datos I}
+\grupo{}
+\integrante{Bond, James}{00/07}{jamesbond@email.com}
+
+% Documento
+\begin{document}
+
+% Cambio de numeración para las primeras páginas
+\pagestyle{empty}
+\pagenumbering{Alph}
+\subfile{sections/titlepage}
+
+% Reset pagestyle
+\pagestyle{plain}
+\pagenumbering{arabic}
+\hyperblue
+
+\part{Introducción}
+\subfile{sections/section_1}
+
+% Bibliography
+\newpage
+\part{Bibliografía}
+\bibliographystyle{unsrt}
+\bibliography{bibliography.bib}
+
+
+
+\end{document}
