@@ -1,0 +1,122 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=35mm,
+    right=35mm,
+    top=25mm,
+    bottom=25mm
+}
+
+\usepackage{tgheros}
+\usepackage{adforn}
+\usepackage{pifont}
+\usepackage{fontawesome}
+
+\usepackage{xhfill}
+\usepackage{enumitem}
+
+\usepackage{array}
+\usepackage{xcolor}
+\definecolor{deepblue}{RGB}{38, 48, 83}
+
+\usepackage{hyperref}
+
+% File metadata
+% ================== CHANGE MY CONTENTS WITH RELEVANT INFO ====================
+\hypersetup{
+    colorlinks=true,
+    urlcolor=deepblue,
+    pdftitle={James Bond - CV},
+    pdfauthor={James Bond},
+    pdfsubject={CV},
+    pdfcreator={James Bond},
+    pdfproducer={James Bond},
+    pdfkeywords={James} {Bond} {Spy} {Agent} {CV} {Curriculum} {Vitae},
+    pdfnewwindow=true,
+}
+
+\usepackage{jigq} % utils
+
+\begin{document}
+\thispagestyle{empty} % No page number
+
+% Title and links
+% ================== CHANGE MY CONTENTS WITH RELEVANT INFO ====================
+\begin{center}
+    \huge James Bond\par\large
+    \begin{tabular}{ @{\hspace{7mm}}c@{\hspace{2mm}} l@{\hspace{0mm}} }
+        \href{mailto:james.bond@example.com}{\faEnvelopeO{}} & \href{mailto:james.bond@example.com}{james.bond\texttt{@}example.com} \\ 
+        \href{tel:+007123456789}{\faPhone{}} & \href{tel:+007123456789}{\texttt{+}007 123 456 789} \\ 
+        \href{https://github.com/bondjamesbond007}{\faGithub{}} & \href{https://github.com/bondjamesbond007}{github.com/bondjamesbond007} \\
+        \href{https://linkedin.com/in/jamesbond007}{\faLinkedin{}} & \href{https://linkedin.com/in/jamesbond007}{linkedin.com/in/jamesbond007}
+    \end{tabular}
+\end{center}
+
+\vspace{5mm}
+
+% Description
+% ================== CHANGE MY CONTENTS WITH RELEVANT INFO ====================
+{\setlength{\parindent}{0cm}%
+Experienced international spy with a license to thrill. Known for exceptional problem-solving skills, tactical expertise, and a keen eye for detail. Specializing in covert operations, intelligence gathering, and high-stakes diplomacy. Proven track record of successfully navigating complex missions and overcoming challenges with finesse.
+}
+
+\vspace{5mm}
+
+% Education tab
+% ================== CHANGE MY CONTENTS WITH RELEVANT INFO ====================
+{\color{black}\resumeSection{Education}}
+
+\begin{itemize}[label=\adforn{43}]
+    \resumeItem {Master's Degree in Espionage}{2022 -- 2032}%
+                {\small\textit{MI6 Academy of Espionage},  London, United Kingdom\hfill $\mathrm{(Estimated)}$}
+
+    \resumeItem{International Relations}{2018 -- 2022}%
+               {{University of Oxford, Oxford, United Kingdom}}
+
+    \resumeItem{Chemical Engineering}{2014 -- 2018}%
+               {Imperial College London, London, United Kingdom}
+\end{itemize}
+
+% Skills tab
+% ================== CHANGE MY CONTENTS WITH RELEVANT INFO ====================
+\resumeSection{Skills}
+\begin{enumerate}[label=\adforn{43}]
+
+    % Skill section A
+    % % ================== CHANGE MY CONTENTS WITH RELEVANT INFO ====================
+    \item {Skills of interest -- \textit{Sorted by proficiency}} {
+        \begin{enumerate}[label=\adforn{7}]
+            \item {Infiltration} \\ Proficient in undercover operations, blending into diverse environments.
+            \item {Surveillance} \\ Utilize advanced surveillance techniques to gather critical intelligence.
+            \item {Hand-to-Hand Combat} \\ Trained in hand-to-hand combat for close-quarters engagements.
+            \item {Fencing} \\ Proficient in the use of the foil and épée for formal dueling situations.
+        \end{enumerate}
+    }
+
+    % Skill section B
+    % % ================== CHANGE MY CONTENTS WITH RELEVANT INFO ====================
+    \item {Other skills, medium proficiency:} {
+        \begin{enumerate}[label=\adforn{7}]
+            \item Evasive driving techniques under high-pressure situations.
+            \item Familiar with the operation of specialized vehicles and associated gadgets.
+            \item Proven ability to lead and coordinate teams in high-risk scenarios.
+            \item Skilled in protecting sensitive information and hacking for defensive purposes.
+            \item Proficient in using cutting-edge technology for mission success.
+            \item Advanced knowledge of personal defense techniques.
+        \end{enumerate}
+    }
+
+    % Skill section C
+    % % ================== CHANGE MY CONTENTS WITH RELEVANT INFO ====================
+    \item {Other stuff:} {
+        \begin{enumerate}[label=\adforn{7}]
+            \item {Expertise in Disguise Techniques}
+            \\ Proficient in the art of disguise for undercover operations.
+            \item Effective in negotiating and navigating diplomatic challenges.
+            \item Known for making sound decisions under extreme pressure.
+        \end{enumerate}
+    }
+\end{enumerate}
+
+\end{document}
